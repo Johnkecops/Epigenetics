@@ -1,0 +1,22 @@
+# Core data science
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# TCGA / GDC API
+requests>=2.31.0
+
+# Differential expression
+pydeseq2>=0.4.0
+
+# Visualization
+plotly>=5.18.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+matplotlib-venn>=0.11.9
+
+# Streamlit front-end
+streamlit>=1.35.0
+
+# Optional: faster I/O
+pyarrow>=14.0.0
