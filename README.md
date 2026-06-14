@@ -199,3 +199,5 @@ Department of Bioinformatics, Indonesia International Institute for Life Science
 Jakarta, Indonesia
 ORCID: [0000-0001-8716-3926](https://orcid.org/0000-0001-8716-3926)
 Email: arli.parikesit@i3l.ac.id
+
+**AI Assistance Disclaimer**: This codebase was developed with the assistance of Claude Code. While the AI provided code generation, debugging, and structural support, the human developer maintains full responsibility for reviewing, testing, and maintaining all content and functionality.
