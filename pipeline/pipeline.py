@@ -277,7 +277,8 @@ class EpigenomicsPipeline:
         """Main DEG results table from the most recent analysis."""
         if self.results is None:
             return None
-        return self.results.get("degs") or self.results.get("degs_stage1")
+        degs = self.results.get("degs")
+        return degs if degs is not None else self.results.get("degs_stage1")
 
     @property
     def overlap_table(self) -> Optional[pd.DataFrame]:
